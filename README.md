@@ -43,7 +43,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 Caso queira entrar em contato, você pode me encontrar em:
 - **LinkedIn:** (https://www.linkedin.com/in/wallace-araújo-a2b5a01b7/)
 - **GitHub:** (https://github.com/wallaceas)
-- **E-mail:** agenciawallace@gmail.com
+- **E-mail:** (agenciawallace@gmail.com)
 
 ---
 
