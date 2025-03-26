@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/x-icon" href="./image/agencia-removebg-preview.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Agência WA</title>
+  </head>
+  <body>
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+      <!-- Menu -->
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#contatos" class="menu-link">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+      <img src="./image/wallace.JPG" alt="Foto de Wallace Araújo" class="foto-perfil"/>
+      <h1>Wallace Araújo</h1>
+      <p class="cabecalho-sub-titulo">Desenvolvedor Front End e Back End</p>
+    </main>
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          <!-- Texto sobre minha vida profissional-->
+          Sou um profissional com experiência administrativa e um forte interesse na área de tecnologia. 
+          Trabalhei na Polybalas Distribuidora de dezembro de 2020 até fevereiro de 2025, 
+          atuando como auxiliar administrativo de transporte. Durante esse período, 
+          desenvolvi habilidades em análise de processos logísticos, 
+          otimização de operações e implementação de soluções tecnológicas para melhorar a eficiência do setor.
+        </p>
+        <p class="sobre-paragrafo">
+          Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul, 
+          aprimorando meus conhecimentos em desenvolvimento de software e tecnologias voltadas para soluções empresariais. 
+          Tenho domínio em diversas linguagens e frameworks, incluindo PHP, React.js, Node.js, JavaScript, HTML, CSS e Python, 
+          permitindo-me atuar tanto no desenvolvimento front-end quanto back-end.
+        </p>
+        <p class="sobre-paragrafo">
+          Além da experiência prática, possuo uma visão estratégica voltada para inovação e resolução de problemas, 
+          sempre buscando alinhar tecnologia e eficiência operacional. Tenho interesse em atuar no desenvolvimento de sistemas, 
+          análise de dados e soluções tecnológicas que contribuam para a transformação digital das empresas.
+        </p>
+      </div>
+    </section>
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <div class="projetos-card">
+          <img src="./image/pokedex.png" alt="Projeto 1" class="projetos-imagem"/>
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Pokédex</h3>
+            <!-- Nome do projeto 1 feito por mim -->
+            <p class="paragrafos-projetos">
+              Este é um projeto interativo de Pokédex, que permite pesquisar e visualizar informações básicas sobre os Pokémon, como número, nome e imagem correspondente. Ele inclui navegação entre os Pokémon utilizando botões "Prev" (anterior) e "Next" (próximo), além de uma barra de pesquisa para localizar Pokémon por nome ou número.
+            <!-- Texto sobre projeto 1 -->
+            </p>
+          </div>
+        </div>
+        <div class="projetos-card">
+          <img src="./image/previsaodotempo.png" alt="Projeto 2" class="projetos-imagem"/>
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Previsão do Tempo</h3>
+            <!-- Nome do projeto feito por mim -->
+            <p class="paragrafos-projetos">
+              Este projeto é uma aplicação simples de Previsão do Tempo, que permite ao usuário pesquisar o clima de uma cidade específica. A interface exibe informações como temperatura, condição do clima, umidade, e um ícone representativo do clima atual.
+          </div>
+          <!-- Texto sobre projeto 2 -->
+          </p>
+        </div>
+        <div class="projetos-card">
+          <img src="./image/relogio.png" alt="Projeto 3" class="projetos-imagem"/>
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Relógio Digital</h3>
+            <!-- Nome do projeto feito por mim -->
+            <p class="paragrafos-projetos">
+              Este projeto é uma aplicação simples de um Relógio Digital que exibe as horas, minutos e segundos atualizados em tempo real, com um design moderno e responsivo.
+              <!-- Texto sobre projeto 3 -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Area de contato -->
+    <section id="contatos" class="contatos">
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+
+      <form id="formulario" class="formulario-contato" onsubmit="enviarWhatsapp(event)">
+        <div class="grupo-form">
+          <input type="text" class="campo-form" placeholder="Nome" id="nome">
+          <!-- <input class="campo-form" placeholder="Nome" /> -->
+        </div>
+
+        <div class="grupo-form">
+          <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="7" id="mensagem"></textarea>
+        </div>
+        <button type="submit" class="botao-form">Enviar Mensagem</button>
+      </form>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
